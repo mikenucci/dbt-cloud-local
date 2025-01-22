@@ -1,0 +1,18 @@
+analytics:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: txb73264.us-east-1
+      user: mnucci
+      password: Domenic1989
+      role: DBT_ROLE
+      database: FIVETRAN_DATABASE  # Note: dbname is redundant since you have database
+      schema: DBT_SCHEMA
+      warehouse: FIVETRAN_WAREHOUSE
+      threads: 4
+      config:
+        retry_on_database_errors: true
+        retry_all: true
+        connect_retries: 5
+        connect_timeout: 60
