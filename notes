@@ -1,0 +1,7 @@
+to reactivate the dbt venv:
+
+source dbt/bin/activate
+
+
+Username: FIVETRAN_USER
+Password: MaestroQA2025

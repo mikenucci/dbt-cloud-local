@@ -1,0 +1,23 @@
+{
+    "sqltools.connections": [
+        {
+            "authenticator": "SNOWFLAKE",
+            "ocspOptions": {
+                "ocspFailOpen": true
+            },
+            "snowflakeOptions": {
+                "clientSessionKeepAlive": true,
+                "clientSessionKeepAliveHeartbeatFrequency": 3600
+            },
+            "previewLimit": 50,
+            "driver": "Snowflake",
+            "account": "iu73370.us-east4.gcp",
+            "name": "snowflake",
+            "username": "mikenucci",
+            "password": "Domenic1989",
+            "database": "FIVETRAN",
+            "warehouse": "COMPUTE_WH"
+        }
+    ],
+    "dbt.dbtPythonPathOverride": "/Users/mikenucci/.dbt/dbt/bin/python"
+}

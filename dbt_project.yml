@@ -19,5 +19,3 @@ models:
   analytics:
     cleanse_data:  # Subdirectory containing your `opportunities.sql` model
       +enabled: true  # Ensure models in this directory are enabled
-
-
