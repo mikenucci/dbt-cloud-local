@@ -1,0 +1,14 @@
+version: "1"
+context:
+  active-host: "cloud.getdbt.com"
+  active-project: "390588"
+projects:
+  - project-name: "analytics"
+    project-id: "390588"
+    account-name: "MaestroQA"
+    account-id: "169860"
+    account-host: "cloud.getdbt.com"
+    token-name: "cloud-cli-e7de"
+    token-value: "dbtu_WeGxPBAQZA378Nr6OV5VIAHod4AXoU4cQ21HCVk8KZnlp6B35o"
+
+

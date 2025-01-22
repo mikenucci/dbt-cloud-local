@@ -1,0 +1,14 @@
+analytics:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: txb73264.us-east-1
+      user: mnucci
+      password: Domenic1989
+      dbname: FIVETRAN_DATABASE
+      schema: DBT_SCHEMA
+      role: DBT_ROLE
+      warehouse: FIVETRAN_WAREHOUSE
+      threads: 4
+      database: FIVETRAN_DATABASE
